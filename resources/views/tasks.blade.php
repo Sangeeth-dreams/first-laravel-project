@@ -7,7 +7,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+    <div class="text-center">
+    <h1>Daily Tasks</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <div class="row">
+        <div class="col-md-12">
+          <input type="text" class="form-control" name="task" placeholder="Enter your task here">
+            <input type="button" class="btn btn-primary" value='SAVE'>
+            <input type="button" class="btn btn-warning" value='CLEAR'>
+            <table class="table table-dark">
+              <th>ID</th>
+              <th>Task</th>
+              <th>Completed</th>
+            </table>
+        </div>
+      </div>
+    </div>
+    </div>
+    
   </body>
 </html>
